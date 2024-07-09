@@ -943,7 +943,7 @@ def main(
                 global_step += 1
                 accelerator.log({"train_loss": train_loss_temporal}, step=global_step)
                 train_loss_temporal = 0.0
-                if global_step % checkpointing_steps == 0 and global_step > 0:
+                if global_step == 400 or global_step == 900 or global_step == 1000:
                     save_pipe(
                         pretrained_model_path,
                         global_step,

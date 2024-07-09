@@ -1,0 +1,47 @@
+
+Diving-Side: 
+- 'A monkey is diving.'
+- 'A panda is diving.'
+Golf-Swing-Back:
+- "A man is playing golf in front of the White House."
+- "A monkey is playing golf on a field full of flowers."
+Golf-Swing-Front:
+- "A man is playing golf in front of the White House."
+- "A monkey is playing golf on a field full of flowers."
+Golf-Swing-Side:
+- "A man is playing golf in front of the White House."
+- "A monkey is playing golf on a field full of flowers."
+Kicking-Front:
+- "A monkey is kicking soccer on a field full of flowers."
+- "A panda is kicking soccer in a garden."
+Kicking-Side:
+- "A monkey is kicking soccer on a field full of flowers."
+- "A panda is kicking soccer in a garden."
+Lifting:
+- "A panda is lifting weights in a garden."
+- "A police officer is lifting weights in front of the police station."
+- "An astronaut is lifting weights on Mars, 4K, high quailty, highly detailed."
+Riding-Horse:
+- "A knight riding on horseback passing by a castle."
+- "A man riding an elephant through the jungle."
+- "A girl riding a unicorn galloping under the moonlight."
+- "An adventurer riding a dinosaur exploring through the rainforest."
+- "An astronaut is riding a horse on Mars, 4K, high quailty, highly detailed."
+Run-Side:
+- "A robot is running in a cyberpunk city."
+- "A teddy bear is running in Times Square New York."
+- "An astronaut is running on Mars"
+SkateBoarding-Front:
+- "A robot is skateboarding in a cyberpunk city."
+- "A teddy bear skateboarding in Times Square New York."
+- "An astronaut is skateboarding on Mars"
+Swing-Bench:
+- "A monkey is swing bench on a field full of flowers."
+- "A robot is swing bench in a stadium."
+Swing-SideAngle:
+- "A monkey is swing bench on a field full of flowers."
+- "A robot is swing bench in a stadium."
+Walk-Front:
+- "A robot is walking in a cyberpunk city."
+- "A teddy bear is walking in Times Square New York."
+- "An astronaut is walking on Mars"

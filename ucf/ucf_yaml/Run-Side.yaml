@@ -1,0 +1,44 @@
+adam_weight_decay: 1e-4
+cache_latents: true
+cached_latent_dir: null
+checkpointing_steps: 100
+dataset_types:
+- folder
+enable_torch_2_attn: true
+enable_xformers_memory_efficient_attention: true
+gradient_checkpointing: true
+learning_rate: 5e-4
+lora_rank: 32
+lora_unet_dropout: 0.1
+max_train_steps: 3000
+mixed_precision: fp16
+offset_noise_strength: 0.0
+output_dir: ucf/ucf_action_outputs
+pretrained_model_path: /cephfs/huijie/proj/MotionDirector_classifier/models/zeroscope_v2_576w
+save_pretrained_model: false
+text_encoder_gradient_checkpointing: true
+train_data:
+  fallback_prompt: A person is running.
+  fps: 8
+  frame_step: 1
+  height: 384
+  n_sample_frames: 16
+  path: ucf/ucf_action/Run-Side
+  sample_start_idx: 1
+  use_bucketing: true
+  width: 384
+use_offset_noise: false
+use_unet_lora: true
+validation_data:
+  guidance_scale: 12
+  height: 384
+  noise_prior: 0
+  num_frames: 16
+  num_inference_steps: 30
+  prompt:
+  - A person is riding a bicycle past the Eiffel Tower.
+  - A panda is riding a bicycle in a garden.
+  sample_preview: true
+  spatial_scale: 0
+  width: 384
+validation_steps: 5000
